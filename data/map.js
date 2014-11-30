@@ -549,25 +549,25 @@ questions = {
         main: 'Can\'t I have both',
         destination: {
           type: 'question',
-          id: 'xxxx'
+          id: 'fantasy-scifi'
         }
       }, {
         main: 'I only read books with pictures.',
         destination: {
           type: 'question',
-          id: 'xxxx'
+          id: 'graphic-novels'
         }
       }, {
         main: 'What about Horror?',
         destination: {
           type: 'question',
-          id: 'xxxx'
+          id: 'vampire-pick'
         }
       }, {
         main: 'I\'d rather not be seen in that area of the bookstore.',
         destination: {
           type: 'question',
-          id: 'xxxx'
+          id: 'genre-bender'
         }
       }
     ]
@@ -780,17 +780,24 @@ questions = {
     answers: [
       {
         main: 'Yes',
-        sub: 'xxxxxxxxxxxxxx',
+        sub: 'The other two options ended with some strange choices.',
         destination: {
-          type: 'xxxx',
-          id: 'xxxx'
+          type: 'question',
+          id: 'finished-series'
+        }
+      }, {
+        main: 'Maybe',
+        sub: 'How about an episodic series?',
+        destination: {
+          type: 'question',
+          id: 'episodic-series-pick'
         }
       }, {
         main: 'No',
-        sub: 'xxxxxxxxxxxxxx',
+        sub: 'Let\'s keep this casual',
         destination: {
-          type: 'xxxx',
-          id: 'xxxx'
+          type: 'question',
+          id: 'type-of-pirate'
         }
       }
     ]
@@ -952,7 +959,7 @@ questions = {
     ]
   },
   'finished-series': {
-    question: 'Does series have to be finished?',
+    question: 'Does the series have to be finished?',
     answers: [
       {
         main: 'Yes',
@@ -1891,22 +1898,56 @@ questions = {
       }
     ]
   },
-  'fantasy-scifi': {
-    question: 'You can have it all ',
+  'scifi-romantic-time': {
+    question: 'Like a little time travel with your love story?',
     answers: [
       {
-        main: 'xxxx',
-        sub: 'xxxxxxxxxxxxxx',
+        main: 'Yes',
         destination: {
-          type: 'xxxx',
-          id: 'xxxx'
+          type: 'question',
+          id: 'scifi-romantic-time-yes'
         }
       }, {
-        main: 'xxxx',
-        sub: 'xxxxxxxxxxxxxx',
+        main: 'No',
         destination: {
-          type: 'xxxx',
-          id: 'xxxx'
+          type: 'question',
+          id: 'scifi-romantic-time-no'
+        }
+      }
+    ]
+  },
+  'scifi-romantic-time-yes': {
+    question: 'You might be interested in a couple of books...',
+    answers: [
+      {
+        main: 'Try this',
+        destination: {
+          type: 'book',
+          id: 'the-time-travellers-wife'
+        }
+      }, {
+        main: 'Or this',
+        destination: {
+          type: 'book',
+          id: 'the-outlander-series'
+        }
+      }
+    ]
+  },
+  'scifi-romantic-time-no': {
+    question: 'Tough.',
+    answers: [
+      {
+        main: 'Try this',
+        destination: {
+          type: 'book',
+          id: 'the-time-travellers-wife'
+        }
+      }, {
+        main: 'Or this',
+        destination: {
+          type: 'book',
+          id: 'the-outlander-series'
         }
       }
     ]
@@ -1936,5 +1977,99 @@ questions = {
       }
     ]
   },
+  'fantasy-scifi': {
+    question: 'You can have it all. Into the future or the past?',
+    answers: [
+      {
+        main: 'Future',
+        destination: {
+          type: 'question',
+          id: 'math-geek'
+        }
+      }, {
+        main: 'Past',
+        destination: {
+          type: 'question',
+          id: 'fantasy-scifi-past'
+        }
+      }
+    ]
+  },
+  'romance-or-underdog': {
+    question: 'Romance or overcoming the odds?',
+    answers: [
+      {
+        main: 'I root for the underdog',
+        destination: {
+          type: 'book',
+          id: 'flowers-for-algernon'
+        }
+      }, {
+        main: 'Romance',
+        destination: {
+          type: 'question',
+          id: 'scifi-romantic-time'
+        }
+      }
+    ]
+  },
+  'graphic-novels': {
+    question: 'PoMo Superheroes or tortured spector?',
+    answers: [
+      {
+        main: 'Heroes',
+        destination: {
+          type: 'book',
+          id: 'watchmen'
+        }
+      }, {
+        main: 'Master of Dreams',
+        destination: {
+          type: 'book',
+          id: 'the-sandman-series'
+        }
+      }
+    ]
+  },
+  'vampire-pick': {
+    question: 'Not much to choose from. Looking for vampires?',
+    answers: [
+      {
+        main: 'Yes',
+        destination: {
+          type: 'book',
+          id: 'sunshine'
+        }
+      }, {
+        main: 'No',
+        destination: {
+          type: 'question',
+          id: 'zombie-pick'
+        }
+      }
+    ]
+  },
+  'genre-bender': {
+    question: 'We won\'t tell. Prefer a drama?',
+    answers: [
+      {
+        main: 'Yes',
+        sub: 'I love me a good tear jerker.',
+        destination: {
+          type: 'question',
+          id: 'romance-or-underdog'
+        }
+      }, {
+        main: 'No',
+        sub: 'I just watched The Notebook last night.',
+        destination: {
+          type: 'question',
+          id: 'no-drama'
+        }
+      }
+    ]
+  },  
+
+
   '___':0
 };
