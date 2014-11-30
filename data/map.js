@@ -4,107 +4,107 @@ books = {
   'the-kingkiller-chronicles': {
     title: 'The Kingkiller Chronicles',
     author: 'Patrick Rothfuss',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Kingkiller_Chronicle'
   },
   'the-lord-of-the-rings': {
     title: 'The Lord of the Rings',
     author: 'J.R.R. Tolkien',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Lord_of_the_Rings'
   },
   'wicked': {
     title: 'Wicked',
     author: 'Gregory Maguire',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Wicked_(Maguire_novel)'
   },
   'the-once-and-future-king': {
     title: 'The Once and Future King',
     author: 'T. H. White',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Once_and_Future_King'
   },
   'the-crystal-cave': {
     title: 'The Crystal Cave',
     author: 'Mary Steward',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Crystal_Cave'
   },
   'the-mists-of-avalon': {
     title: 'The Mists of Avalon',
     author: 'Marion Zimmer Bradley',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Mists_of_Avalon'
   },
   'the-last-unicorn': {
     title: 'The Last Unicorn',
     author: 'Peter S. Beagle',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Last_Unicorn'
   },
   'watership-down': {
     title: 'Watership Down',
     author: 'Richard Adams',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Watership_Down'
   },
   'dragonflight': {
     title: 'Dragonflight',
     author: 'Anne McCaffrey',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Dragonflight'
   },
   'kushiels-legacy-series': {
     title: 'Kushiel\'s Legacy Series',
     author: 'Jaqueline Carey',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Kushiel%27s_Legacy'
   },
   'jonathan-strange-mr-norrell': {
     title: 'Jonathan Strange & Mr. Norrell',
     author: 'Susanna Clarke',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Jonathan_Strange_%26_Mr_Norrell'
   },
   'stardust': {
     title: 'Stardust',
     author: 'Neil Galman',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Stardust_(novel)'
   },
   'the-princess-bride': {
     title: 'The Princess Bride',
     author: 'William Goldman',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Princess_Bride'
   },
   'a-song-of-ice-and-fire': {
     title: 'A Song of Ice and Fire',
     author: 'George R. R. Martin',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire'
   },
   'the-way-of-kings': {
     title: 'The Way of Kings',
     author: 'Brandon Sanderson',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Way_of_Kings'
   },
   'the-mistborn-trilogy': {
     title: 'The Mistborn Trilogy',
     author: 'Brandon Sanderson',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Mistborn_series'
   },
   'the-sword-of-shannara-trilogy': {
     title: 'The Sword of Shannara Trilogy',
     author: 'Terry Brooks',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Sword_of_Shannara'
   },
   'the-sword-of-truth-series': {
     title: 'The Sword of Truth Series',
     author: 'Terry Goodkind',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Sword_of_Truth'
   },
   'the-farseer-trilogy': {
     title: 'The Farseer Trilogy',
     author: 'Robin Hobb',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Farseer_Trilogy'
   },
   'the-riftwar-saga': {
     title: 'The Riftwar Saga',
     author: 'Raymond E. Feist',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Riftwar_Saga'
   },
   'the-chronicles-of-thomas-covenant-the-unbeliever': {
     title: 'The Chronicles of Thomas Covenant, The Unbeliever',
     author: 'Stephen R. Donaldson',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Chronicles_of_Thomas_Covenant'
   },
   'chronicles-of-conan-the-barbarian': {
     title: 'Chronicles of Conan the Barbarian',
@@ -114,223 +114,227 @@ books = {
   'going-postal': {
     title: 'Going Postal',
     author: 'Terry Prachett',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Going_Postal'
   },
   'small-gods': {
     title: 'Small Gods',
     author: 'Terry Prachett',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Small_Gods'
   },
   'xanth-series': {
     title: 'Xanth Series',
     author: 'Piers Anthony',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Xanth'
   },
   'something-wicked-this-way-comes': {
     title: 'Something Wicked This Way Comes',
     author: 'Ray Bradbury',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Something_Wicked_This_Way_Comes_(novel)'
   },
   'the-dark-tower': {
     title: 'The Dark Tower',
     author: 'Stephen King',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Dark_Tower:_The_Gunslinger'
   },
   'neverwhere': {
     title: 'Neverwhere',
     author: 'Neil Gaiman',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Neverwhere_(novel)'
   },
   'american-gods': {
     title: 'American Gods',
     author: 'Neil Gaiman',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/American_Gods'
   },
   'the-legend-of-drizzt': {
     title: 'The Legend of Drizzt',
     author: 'R.A. Salvatore',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Legend_of_Drizzt'
   },
   'anathem': {
     title: 'Anathem',
     author: 'Neal Stephenson',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Anathem'
   },
   'the-elric-saga': {
     title: 'The Elric Saga',
     author: 'Michael Moorcock',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Elric_of_Melnibon%C3%A9'
   },
   'the-hyperion-cantos': {
     title: 'The Hyperion Cantos',
     author: 'Dan Simmons',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Hyperion_Cantos'
   },
   'the-belgariad': {
     title: 'The Belgariad',
     author: 'David Eddings',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Belgariad'
   },
   'the-chronicles-of-amber': {
     title: 'The Chronicles of Amber',
     author: 'Roger Zelazny',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Chronicles_of_Amber'
   },
   'the-malazan-book-of-the-fallen-series': {
     title: 'The Malazan Book of the Fallen Series',
     author: 'Steven Erikson',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Malazan_Book_of_the_Fallen_Series'
   },
   'the-wheel-of-time': {
     title: 'The Wheel of Time',
     author: 'Robert Jordan',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Wheel_of_Time'
+  },
+  'the-silmarillion': {
+    title: 'The Silmarillion',
+    author: 'J.R.R. Tolkien',
+    url: 'http://en.wikipedia.org/wiki/The_Silmarillion'
   },
   'the-stand': {
     title: 'The Stand',
     author: 'Stephen King',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Stand'
   },
   'the-road': {
     title: 'The Road',
     author: 'Cormac McCarthy',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Road'
   },
   'farenheit-451': {
     title: 'Farenheit 451',
     author: 'Ray Bradbury',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Farenheit_451'
   },
   'the-book-of-the-new-sun': {
     title: 'The Book of the New Sun',
     author: 'Gene Wolfe',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Book_of_the_New_Sun'
   },
   'frankenstein': {
     title: 'Frankenstein',
     author: 'Mary Shelley',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Frankenstein'
   },
   'the-eyre-affar': {
     title: 'The Eyre Affar',
     author: 'Jasper Fforde',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Eyre_Affar'
   },
   'perdido-street-station': {
     title: 'Perdido Street Station',
     author: 'China Mieville',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Perdido_Street_Station'
   },
   'the-sandman-series': {
     title: 'The Sandman Series',
     author: 'Neil Gaiman',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Sandman_Series'
   },
   'watchmen': {
     title: 'Watchmen',
     author: 'Alan Moore & Dave Gibbons',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Watchmen'
   },
   'contact': {
     title: 'Contact',
     author: 'Carl Sagan',
-    url: '',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Contact'
   },
   'sunshine': {
     title: 'Sunshine',
     author: 'Robin McKinley',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Sunshine'
   },
   'the-codex-alera': {
     title: 'The Codex Alera',
     author: 'Jim Butcher',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Codex_Alera'
   },
   'the-belgariad': {
     title: 'The Belgariad',
     author: 'David Eddings',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Belgariad'
   },
   'flowers-for-algernon': {
     title: 'Flowers for Algernon',
     author: 'Daniel Keyes',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Flowers_for_Algernon'
   },
   'i-am-legend': {
     title: 'I Am Legend',
     author: 'Richard Matheson',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/I_Am_Legend'
   },
   'world-war-z': {
     title: 'World War Z',
     author: 'Max Brooks',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/World_War_Z'
   },
   'the-time-travellers-wife': {
     title: 'The Time Traveller\'s Wife',
     author: 'Audrey Neffenegger',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Time_Traveller\'s_Wife'
   },
   'the-outlander-series': {
     title: 'The Outlander Series',
     author: 'Diana Gabaldon',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Outlander_Series'
   },
   'a-clockwork-orange': {
     title: 'A Clockwork Orange',
     author: 'Anthony Burgess',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/A_Clockwork_Orange'
   },
   'cats-craddle': {
     title: 'Cat\'s Craddle',
     author: 'Kurt Vonnegut',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Cat\'s_Craddle'
   },
   'brave-new-world': {
     title: 'Brave New World',
     author: 'Aldus Huxley',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Brave_New_World'
   },
   'slaughterhouse-5': {
     title: 'Slaughterhouse 5',
     author: 'Kurt Vonnegut',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Slaughterhouse_5'
   },
   'the-handmaids-tale': {
     title: 'The Handmaid\'s Tale',
     author: 'Margaret Atwood',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Handmaid\'s_Tale'
   },
   'nineteen-eighty-four': {
     title: 'Nineteen Eighty-Four',
     author: 'George Orwell',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Nineteen_Eighty-Four'
   },
   'childhoods-end': {
     title: 'Childhood\'s End',
     author: 'Arthur C. Clarke',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Childhood\'s_End'
   },
   'rendezvous-with-rama': {
     title: 'Rendezvous with Rama',
     author: 'Arthur C. Clarke',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Rendezvous_with_Rama'
   },
   'the-thrawn-trilogy': {
     title: 'The Thrawn Trilogy',
     author: 'Timothy Zahn',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Thrawn_Trilogy'
   },
   'war-of-the-worlds': {
     title: 'War of the Worlds',
     author: 'H.G. Wells',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/War_of_the_Worlds'
   },
   'the-diamond-age': {
     title: 'The Diamond Age',
     author: 'Neal Stephenson',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Diamond_Age'
   },
   'neuromancer': {
     title: 'Neuromancer',
@@ -342,172 +346,172 @@ books = {
   'snow-crash': {
     title: 'Snow Crash',
     author: 'Neal Stephenson',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Snow_Crash'
   },
   'journey-to-the-center-of-the-earth': {
     title: 'Journey to the Center of the Earth',
     author: 'Jules Verne',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Journey_to_the_Center_of_the_Earth'
   },
   'do-androids-dream-of-electric-sheep': {
     title: 'Do Androids Dream of Electric Sheep?',
     author: 'Phillip K. Dick',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep?'
   },
   'the-left-hand-of-darkness': {
     title: 'The Left Hand of Darkness',
     author: 'Usula K.LeGuin',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Left_Hand_of_Darkness'
   },
   '20000-leagues-under-the-sea': {
     title: '20,000 Leagues Under the Sea',
     author: 'Jules Verne',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/20000_Leagues_Under_the_Sea'
   },
   'cryptonomicon': {
     title: 'Cryptonomicon',
     author: 'Neal Stephenson',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Cryptonomicon'
   },
   '2001-a-space-odyssey': {
     title: '2001: A Space Odyssey',
     author: 'Arthur C. Clarke',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/2001_A_Space_Odyssey'
   },
   'the-martian-chronicles': {
     title: 'The Martian Chronicles',
     author: 'Ray Bradbury',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Martian_Chronicles'
   },
   'the-mars-trilogy': {
     title: 'The Mars Trilogy',
     author: 'Kim Stanley Robinson',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Mars_Trilogy'
   },
   'starship-troopers': {
     title: 'Starship Troopers',
     author: 'Robert A. Heinlein',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Starship_Troopers'
   },
   'enders-game': {
     title: 'Ender\'s Game',
     author: 'Orson Scott Card',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Enders_Game'
   },
   'the-forever-war': {
     title: 'The Forever War',
     author: 'Joe Haldeman',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Forever_War'
   },
   'the-hitchhikers-guide-to-the-galaxy': {
     title: 'The Hitchhiker\'s Guide to the Galaxy',
     author: 'Douglas Adams',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Hitchhikers_Guide_to_the_Galaxy'
   },
   'the-culture-series': {
     title: 'The Culture Series',
     author: 'Iain M. Banks',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Culture_Series'
   },
   'the-mote-in-gods-eye': {
     title: 'The Mote in God\'s Eye',
     author: 'Larry Niven & Jerry Pournelle',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Mote_in_Gods_Eye'
   },
   'animal-farm': {
     title: 'Animal Farm',
     author: 'George Orwell',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Animal_Farm'
   },
   'vorkosigan-saga': {
     title: 'Vorkosigan Saga',
     author: 'Lois McMaster Bujold',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Vorkosigan_Saga'
   },
   'i-robot': {
     title: 'I, Robot',
     author: 'Isaac Asimov',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/I,_Robot'
   },
   'the-dispossessed': {
     title: 'The Dispossessed',
     author: 'Ursula K. LeGuin',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Dispossessed'
   },
   'a-canticle-of-leibowitz': {
     title: 'A Canticle of Leibowitz',
     author: 'Walter M. Miller Jr.',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/A_Canticle_of_Leibowitz'
   },
   'stranger-in-a-strange-land': {
     title: 'Stranger in a Strange Land',
     author: 'Robert A. Heinlein',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Stranger_in_a_Strange_Land'
   },
   'the-time-machine': {
     title: 'The Time Machine',
     author: 'H. G. Wells',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Time_Machine'
   },
   'doomsday-book': {
     title: 'Doomsday Book',
     author: 'Connie Willis',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Doomsday_Book'
   },
   'lucifers-hammer': {
     title: 'Lucifer\'s Hammer',
     author: 'Larry Niven & Jerry Pournelle',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Lucifers_Hammer'
   },
   'the-caves-of-steel': {
     title: 'The Caves of Steel',
     author: 'Isaac Asimov',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Caves_of_Steel'
   },
   'the-mars-trilogy': {
     title: 'The Mars Trilogy',
     author: 'Kim Stanley Robinson',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Mars_Trilogy'
   },
   'space-trilogy': {
     title: 'Space Trilogy',
     author: 'C. S. Lewis',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Space_Trilogy'
   },
   'old-mans-war': {
     title: 'Old Man\'s War',
     author: 'John Scalzi',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Old_Mans_War'
   },
   'the-moon-is-a-harsh-mistress': {
     title: 'The Moon is a Harsh Mistress',
     author: 'Robert A. Heinlein',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Moon_is_a_Harsh_Mistress'
   },
   'the-dune-chronicles': {
     title: 'The Dune Chronicles',
     author: 'Frank Herbert',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Dune_Chronicles'
   },
   'foundation-trilogy': {
     title: 'Foundation Trilogy',
     author: 'Isaac Asimov',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Foundation_Trilogy'
   },
   'ringworld': {
     title: 'Ringworld',
     author: 'Larry Niven',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/Ringworld'
   },
   'a-fire-upon-the-deep': {
     title: 'A Fire Upon the Deep',
     author: 'Vernor Vinge',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/A_Fire_Upon_the_Deep'
   },
   'the-illustrated-man': {
     title: 'The Illustrated Man',
     author: 'Ray Bradbury',
-    url: ''
+    url: 'http://en.wikipedia.org/wiki/The_Illustrated_Man'
   }
 };
 
@@ -530,7 +534,7 @@ questions = {
           id: 'cyberpunk'
         }
       }, {
-        main: 'Neither',
+        main: 'Somewhere in between',
         destination: {
           type: 'question',
           id: 'neither-fantasy-scifi'
@@ -595,8 +599,8 @@ questions = {
         main: 'Yes',
         sub: 'I am as yet unfamiliar with your tropes, do your worst.',
         destination: {
-          type: 'book',
-          id: 'the-lord-of-the-rings'
+          type: 'question',
+          id: 'tolkien'
         }
       }, {
         main: 'Maybe',
@@ -615,21 +619,43 @@ questions = {
       }
     ]
   },
+  'tolkien': {
+    question: 'Have you read The Lord of the Rings?',
+    answers: [
+      {
+        main: 'Yes',
+        sub: 'I\'m not that new.',
+        destination: {
+          type: 'book',
+          id: 'the-silmarillion'
+        }
+      },
+      {
+        main: 'No',
+        destination: {
+          type: 'book',
+          id: 'the-lord-of-the-rings'
+        }
+      } 
+    ]
+  },
+
+
   'arthurian-legend': {
     question: 'Like the Arthurian legend?',
     answers: [
       {
         main: 'Yes',
-        sub: 'I own the Sword and the Stoone on DVD and VHS.',
+        sub: 'I own the Sword and the Stone on DVD and VHS.',
         destination: {
-          type: 'xxxx',
-          id: 'xxxx'
+          type: 'question',
+          id: 'which-arthurian-character'
         }
       }, {
         main: 'No',
         destination: {
-          type: 'xxxx',
-          id: 'xxxx'
+          type: 'question',
+          id: 'modern-day-settings'
         }
       }
     ]
@@ -833,7 +859,7 @@ questions = {
     ]
   },
   'totalitarian-or-crazy-world': {
-    question: 'xxxxxxxxx',
+    question: 'Totalitarian or world gone mad?',
     answers: [
       {
         main: 'Dictators',
@@ -890,7 +916,7 @@ questions = {
     ]
   },
   'romance-or-war-mag': {
-    question: 'Romanceor warring magicians?',
+    question: 'Romance or warring magicians?',
     answers: [
       {
         main: 'Romance',
@@ -899,10 +925,10 @@ questions = {
           id: 'kushiels-legacy-series'
         }
       }, {
-        main: 'xxxx',
+        main: 'Magicians',
         destination: {
-          type: 'xxxx',
-          id: 'xxxx'
+          type: 'book',
+          id: 'jonathan-strange-mr-norrell'
         }
       }
     ]
@@ -1168,7 +1194,7 @@ questions = {
     ]
   },
   'more-than-trilogy': {
-    question: 'xxxxxxxxx',
+    question: 'So, five or six books enough for you?',
     answers: [
       {
         main: 'Yes',
@@ -1326,6 +1352,8 @@ questions = {
   },
   'cyberpunk': {
     question: 'Cyberpunk?',
+    bg: 'assets/bg-cyberpunk2.jpg',
+    bgDark: true,
     answers: [
       {
         main: 'Yes',
@@ -1882,5 +1910,31 @@ questions = {
         }
       }
     ]
-  }
+  },
+  'zombie-pick': {
+    question: 'Zombie war, or one man against a hoard?',
+    answers: [
+      {
+        main: 'I\'m going it alone',
+        destination: {
+          type: 'i-am-legend',
+          id: 'xxxx'
+        }
+      }, {
+        main: 'With a little help from my friends',
+        destination: {
+          type: 'book',
+          id: 'world-war-z'
+        }
+      }, {
+        main: 'No',
+        sub: 'On second thought, why not go with a classic',
+        destination: {
+          type: 'book',
+          id: 'frankenstein'
+        }
+      }
+    ]
+  },
+  '___':0
 };
