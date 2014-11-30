@@ -335,7 +335,9 @@ books = {
   'neuromancer': {
     title: 'Neuromancer',
     author: 'William Gibson',
-    url: ''
+    description: 'Neuromancer is a 1984 novel by William Gibson, a seminal work in the cyberpunk genre and the first winner of the science-fiction "triple crown" — the Nebula Award, the Philip K. Dick Award, and the Hugo Award.',
+    image: 'assets/Neuromancer_(Book).jpg',
+    url: 'http://en.wikipedia.org/wiki/Neuromancer'
   },
   'snow-crash': {
     title: 'Snow Crash',
