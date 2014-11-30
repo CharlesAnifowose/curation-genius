@@ -621,6 +621,8 @@ questions = {
   },
   'tolkien': {
     question: 'Have you read The Lord of the Rings?',
+    bg: 'assets/bg-lotr.jpg',
+    bgDark: true,
     answers: [
       {
         main: 'Yes',
@@ -1388,6 +1390,8 @@ questions = {
   },
   'cyberpunk-pick': {
     question: 'Gritty Noir, Neo-Victorian or Samurai?',
+    bg: 'assets/bg-cyberpunk.jpg',
+    bgDark: false,
     answers: [
       {
         main: 'Samurai',
@@ -2069,7 +2073,5 @@ questions = {
       }
     ]
   },  
-
-
   '___':0
 };

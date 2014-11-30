@@ -68,6 +68,10 @@ module = angular.module('app', [
     scope.selectQuestionById = function(questionId){
       scope.activeQuestion = questions[questionId];
       scope.activeQuestion.id = questionId; // 02083490 dangerous, what about alternate paths?
+      scope.clearActiveBook()
+    }
+
+    scope.clearActiveBook = function(){
       scope.activeBook = null;
     }
 
