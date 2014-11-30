@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="smeApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="smeApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="smeApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="app" class="no-js"> <!--<![endif]-->
+
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<title>Curation Genius</title>
+
+    <script src="data/map.js"></script>
+
+    <!-- Underscore -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+
+    <!-- Greensock -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
+    
+    <!-- Angular JS Framework  -->
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.27/angular.min.js"></script>
+
+    <!-- Angular Plugin: Hotkeys -->
+    <script src="lib/angular-hotkeys/hotkeys.js"></script>
+    <link  href="lib/angular-hotkeys/hotkeys.css" rel='stylesheet' type='text/css' >
+    
+    <!-- FontAwesome (icons) -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- App -->
+    <link rel="stylesheet" href="mockup/css/bootstrap.css">
+    <link  href="style/style.css" rel='stylesheet' type='text/css' >
+    <script src="js/app.js"></script>
+    
+    <!-- ...  -->
+
+  </head>
+  <body ng-controller="MainCtrl">
+
+    <div>
+      <div ng-repeat="question in breadcrumbs">
+        <strong style="cursor:pointer" ng-bind="question.question" ng-click="openBreadcrumb(question, $index)"></strong>
+        <span ng-bind="question.lastSelection"></span>
+      </div>
+    </div>
+
+    <div class="container" style="margin-top:16px">
+      <div class="row" style="text-align:center;">
+        
+        <div ng-hide="activeBook">
+          <div ng-bind="activeQuestion.question" style="font-size:22px; margin-bottom: 12px;"></div>
+          <div ng-repeat="answer in activeQuestion.answers" style="display:inline-block; vertical-align:middle; ">
+            <div>
+              <button class="btn" ng-click="openDestination(activeQuestion, answer)" style="font-size:32px; width: 240px; margin-right:12px; white-space: normal;">
+                {{answer.main}}
+                <div ng-bind="answer.sub"  style="font-size:11px;" ></div>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div ng-if="activeBook">
+          <div ng-bind="activeBook.title"></div>
+          <div ng-bind="activeBook.author"></div>
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+</html>

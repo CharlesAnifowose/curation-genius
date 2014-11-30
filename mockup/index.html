@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<head>
+
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    The css utilizes bootstrap with the grid system from skeleton, modified to 1200px wide instead of 960.
+    The tablet and mobile grid may require adjustment.  
+    
+    The chronology of these stylesheet links are important!  
+  ================================================== -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+  <link rel="stylesheet" href="css/fontello/fontello.css">
+  <link rel="stylesheet" href="css/fontello/animation.css">
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="css/fontello-ie7.css">
+  <![endif]-->
+
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/main.css">
+
+    
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+
+</head>
+
+<body>
+
+<!-- Primary Page Layout
+================================================== -->
+
+<div class="header">
+  <nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Navagation Genius</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Browse Topic <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Most Popular</a></li>
+       
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search Topic">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">My Account <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</div>
+
+<div class="main">
+
+  <ol class="breadcrumb">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Books</a></li>
+    <li><a href="#">Genre</a></li>
+    <li class="active">What should I read? Fantasy or Sci-fi?</li>
+  </ol>
+
+  <div class="question">
+    What do you feel like?
+
+
+  <label class="radio-inline">
+    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Fantasy
+  </label>
+  <label class="radio-inline">
+    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Sci Fi
+  </label>=
+  </div>
+
+
+  <div class="flow-chart-container">
+
+    <div class="flowchart-tab-frame">
+      <div id="flowchart-tab">
+        <a href="#"> <div class="glyphicon glyphicon-chevron-up"></div></a>
+      </div>
+    </div>
+    <div class="flowchart-panel">
+      <img src="img/flow-chart-sample.png">
+            
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+
+<!-- End Document
+================================================== -->
+
+
+
+<!-- common -->
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script> -->
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="js/angular.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="libs/hammer/jquery.hammer.min.js"></script> <!-- touch library -->
+
+<!--  twitter  -->
+
+
+
+<!-- page -->
+
+<script type="text/javascript" src="js/pages/common.js"></script>
+
+<script>
+
+$(document).ready(function(){
+  $("#flowchart-tab").click(function(){
+    $(".flowchart-panel").slideToggle("slow");
+  });
+});
+  
+
+</script>
+
+
+
+
+</body>
+</html>
+
